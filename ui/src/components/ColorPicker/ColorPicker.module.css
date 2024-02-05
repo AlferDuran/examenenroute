@@ -1,0 +1,43 @@
+.root {
+  flex: 1;
+  margin: 20px auto 40px auto;
+}
+select {
+  border: 1px solid #d9d9d9;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  width: 100%;
+  color: white;
+
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+  cursor: pointer;
+ border:solid black 1px;
+}
+select:focus {
+  outline: none;
+}
+
+option {
+  margin: 5px;
+  text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+  cursor: pointer;
+}
+.caja::after {
+  content: "\025be";
+  display: table-cell;
+  padding-top: 7px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  pointer-events: none;
+}
